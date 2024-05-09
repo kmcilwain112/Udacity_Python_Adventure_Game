@@ -19,7 +19,7 @@ crysknife = Weapon('Crysknife',25,50)
 cellgun = Weapon('Cellgun',20,40)
 spicegun = Weapon('Spicegun',15,30)
 needlegun = Weapon('Needlegun',10,20)
-paul = Player("Paul",dartgun,100,100,10)
+paul = Player("Paul",dartgun,100,10,0)
 
 def print_pause(prompt, seconds):
     """Function to pause console printing at various intervals"""
